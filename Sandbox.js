@@ -19,7 +19,7 @@ async function startProgram() {
 	await delay(1);
 	for (var sq1 = 0; sq1 < 4; sq1++) {
 		setMainLed(getRandomColor());
-		await Sound.Game.Coin.play(true);
+		await Sound.EightBit.Drop.play(true);
 		await roll((getHeading() + 90), 70, 2);
 		await delay(1);
 
