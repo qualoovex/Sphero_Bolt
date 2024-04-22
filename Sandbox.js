@@ -13,6 +13,7 @@ await speak("Hello World", true);
 
 }
 */
+/*
 async function startProgram() {
 	setMainLed({ r: 11, g: 250, b: 26 });
 	await speak("Hello guys", true);
@@ -24,5 +25,10 @@ async function startProgram() {
 		await delay(1);
 
 	}
+
+}
+*/
+async function startProgram() {
+	await roll(90, 200, 2);
 
 }
