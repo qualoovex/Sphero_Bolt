@@ -16,4 +16,6 @@ async function startProgram() {
 	await roll((getHeading() + 90), 50, 2.5);
 	await delay(1)
 	await roll((getHeading() + 90), 50, 1);
+	await delay(1)
+	await roll((getHeading() + 90), 50, 1.25);
 }
