@@ -8,7 +8,8 @@ Program URL https://edu.sphero.com/program/16743338/edit */
 
 async function startProgram() {
 	await roll(0, 80, 3);
-	
+	await delay(1);
+	await roll((getHeading() - 90), 70, 2.3);
 	
 	
 	
