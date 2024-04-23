@@ -7,6 +7,10 @@ Program URL https://edu.sphero.com/program/16743338/edit */
 
 
 async function startProgram() {
+	await roll(0, 80, 3);
+	
+	
+	
 	
 }
 
